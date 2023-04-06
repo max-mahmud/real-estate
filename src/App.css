@@ -1,0 +1,18 @@
+.app{
+    overflow-x: clip;
+}
+.app>:first-child{
+    background: #131110;
+    position: relative;
+}
+.app>:first-child::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 20rem;
+    border-radius: 50%;
+    height: 20rem;
+    background: rgb(173, 173, 173);
+    filter: blur(100px);
+}

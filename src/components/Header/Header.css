@@ -1,0 +1,16 @@
+.h-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+    justify-content: space-between;
+}
+.h-menu {
+    gap: 2rem;
+}
+.h-menu a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.h-menu a:hover{
+    color: aliceblue;
+}
