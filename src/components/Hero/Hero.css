@@ -72,7 +72,7 @@
     font-size: 32px;
 }
 .counter-flex{
-    padding: 10px 20px;
+    padding: 10px;
 }
 .counter-flex>span:last-child{
     font-size: 14px;

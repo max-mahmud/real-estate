@@ -90,7 +90,7 @@ const Contact = () => {
             </div>
             <div className="col-lg-6">
               <div className="c-image">
-                <img src="../../../public/contact.jpg" alt="image" />
+                <img src="./contact.jpg" alt="image" />
               </div>
             </div>
           </div>
