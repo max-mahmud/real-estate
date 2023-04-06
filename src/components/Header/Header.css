@@ -4,13 +4,42 @@
     color: var(--secondary);
     justify-content: space-between;
 }
-.h-menu {
+.h-menu-wrapper {
     gap: 2rem;
 }
-.h-menu a{
+.h-menu-wrapper a{
     color: aliceblue;
     text-decoration: none;
 }
-.h-menu a:hover{
+.h-menu-wrapper a:hover{
     color: aliceblue;
+}
+.menuIcon{
+    display: none;
+}
+@media (max-width:991px) {
+    .menuIcon{
+        display: block;
+    }
+    .menuIcon svg{
+        font-size: 32px;
+    }
+    .h-menu{
+        position: relative;
+    }
+    .h-menu-wrapper{
+        border-radius: 5px;
+        box-shadow: 2px 2px 7px rgba(22, 22, 22, 0.185);
+        padding: 20px 60px;
+        background: #fff;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+    }
+    .h-menu-wrapper a{
+        color: rgb(0, 0, 0);
+    }
 }

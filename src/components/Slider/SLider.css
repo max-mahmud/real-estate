@@ -45,3 +45,23 @@
     margin: 5px;
     box-shadow: 2px 2px 7px rgb(199, 197, 197);
 }
+
+@media (max-width:991px) {
+    .slider-text{
+        text-align: center;
+    }
+    .r-buttons{
+        position: absolute;
+        top: 100%;
+        left: 45%;
+        z-index: 999;
+        margin-top: 30px;
+    }
+}
+@media (max-width:600px){
+    .r-buttons{
+        position: absolute;
+        top: 95%;
+        left: 40%;
+    }
+}

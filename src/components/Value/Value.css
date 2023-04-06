@@ -6,3 +6,10 @@
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(7, 7, 7, 0.12);
 }
+@media (max-width:991px) {
+    .my-image-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}

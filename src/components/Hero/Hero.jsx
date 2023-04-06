@@ -3,18 +3,26 @@ import "./Hero.css";
 import hero from "../../../public/hero-image.png";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section className="hero_section">
-        <div className="container ">
+        <div className="container mt-4">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-lg-6">
           <div className="hero_left">
-            <h1>
+            <motion.h1
+            initial={{y:"2rem", opacity:0}}
+            animate={{y:"0", opacity:1}}
+            transition={{
+              duration:3,
+              type:"spring"
+            }}
+            >
               Discover <br /> Most Suitable <br /> Property
               <span></span>
-            </h1>
+            </motion.h1>
             <p>
               Find a variety of properties that suit you very easilty <br /> Forget all
               difficulties in finding a residence for you
@@ -43,10 +51,18 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 mt-4">
-            <div className="image-container">
-                <img src={hero} alt="image" />
-            </div>
+        <div className="col-lg-6 mt-4 img-con">
+            <motion.div
+                            initial={{x:"4rem", opacity:0}}
+                            animate={{x:"0", opacity:1}}
+                            transition={{
+                              duration:3,
+                              type:"spring"
+                            }}
+            className="image-container">
+                <img
+                src={hero} alt="image" />
+            </motion.div>
         </div>
       </div>
     </div>

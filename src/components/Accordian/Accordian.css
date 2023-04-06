@@ -30,3 +30,11 @@
 .accordion__heading{
     border-bottom: 1px rgba(16, 26, 70, 0.103) solid;
 }
+@media (max-width:991px) {
+    .accordia-wrapper{
+        text-align: center;
+    }
+    .my-accordian h4{
+        font-size: 18px;
+    }
+}

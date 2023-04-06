@@ -14,8 +14,8 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 const Accordian = () => {
   return (
-    <div>
-      <h3 className="orangeText">Our Value</h3>
+    <div className="accordia-wrapper">
+      <h3 className="orangeText ">Our Value</h3>
       <h2 className="primaryText py-3">Value We Give to You</h2>
       <p className="secondaryText pb-3">
         We always ready to help by providijng the best services for you. <br />{" "}

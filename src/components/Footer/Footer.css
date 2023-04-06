@@ -1,0 +1,18 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f-left img{
+    width: 120px;
+    margin-bottom: 15px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: #1f3e72;
+}
